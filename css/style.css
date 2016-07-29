@@ -1,0 +1,62 @@
+.container {
+    background-image: url("../images/dinninghall2.jpg");
+    width:1025px;
+    height:640px;
+    background-size: 1025px 640px;
+    background-repeat: no-repeat
+
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  color: #800000;
+    
+
+}
+
+
+
+.cover-heading {
+    height:5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  color:#85adad;
+    
+}
+
+p {
+    font-family: Papyrus;
+    color:  #ffcc00;
+}
+
+
+.lead{
+height: 22em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  text-align:center;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+body {
+    background-color:   #000000;
+}
+
+.jumbotron {
+    height:100%;
+    width:100%;
+    background-color:  #000000;
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+}
